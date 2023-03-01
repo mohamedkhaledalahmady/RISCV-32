@@ -6,5 +6,5 @@ module Mux
         output [n-1:0] out
     );
 
-    assign out = sel ? In1 : In2;
+    assign out = sel ? In2 : In1;
 endmodule

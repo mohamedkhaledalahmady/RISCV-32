@@ -1,6 +1,6 @@
 module Extend
     (
-        input [24:0] Instr,
+        input [31:0] Instr,
         input [1:0] ImmSrc,
         output reg [31:0] ImmExt
     );

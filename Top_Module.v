@@ -54,7 +54,7 @@ module Top_Module
 
     /* Extend */
     Extend E0 (
-        .Instr(Instr[31:7]), 
+        .Instr(Instr), 
         .ImmSrc(ImmSrc), 
         .ImmExt(ImmExt)
         );
