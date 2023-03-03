@@ -1,5 +1,5 @@
 *.vcd
-*_tb.v
+Inst_Mem_tb.v
 *.out
 *data_memory.hex
 work/
