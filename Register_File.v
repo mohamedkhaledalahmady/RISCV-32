@@ -14,20 +14,18 @@ module Register_File
 
     reg [width-1:0] memory [entries-1:0];
 
-    // /* Initialize Instruction Memory with machine code of program */
-    // initial begin
-    //     $readmemh("data_memory.hex", memory);
-    // end
     integer i;
     initial begin
         for (i=0; i<32; i=i+1) begin
             memory[i] <= {n{1'b0}};
         end
     end
-
+    
     always @(posedge clk, negedge areset) begin
         if (!areset) begin
-            // $readmemh("data_memory.hex", memory); /* or put zeros in all data */
+            for (i = 0;i < entries ;i=i+1 ) begin
+                memory[i] <= {n{1'b0}};
+            end
         end
         else if (WE3) begin
             memory[A3] <= WD3;
