@@ -20,6 +20,6 @@ module ALU
         endcase
         /* Calculate Zero and Sign flag */
         Zero = ALUResult ? 1'b0 : 1'b1;
-        Sign = ALUResult[n];
+        Sign = ALUResult[n-1];
     end
 endmodule

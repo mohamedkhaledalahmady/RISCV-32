@@ -20,6 +20,7 @@ module Top_Module
 
     /* Program Ccounter */
     PC_Calc P0 (
+        .PCSrc(PCSrc),
         .ImmExt(ImmExt), 
         .PC(PC), 
         .PCNext(PCNext)

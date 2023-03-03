@@ -18,10 +18,13 @@ module Register_File
     // initial begin
     //     $readmemh("data_memory.hex", memory);
     // end
-
+    integer i;
     initial begin
-        $readmemh("data_memory.hex", memory);
+        for (i=0; i<32; i=i+1) begin
+            memory[i] <= {n{1'b0}};
+        end
     end
+
     always @(posedge clk, negedge areset) begin
         if (!areset) begin
             // $readmemh("data_memory.hex", memory); /* or put zeros in all data */

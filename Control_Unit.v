@@ -26,8 +26,8 @@ module Control_Unit
         endcase
         case (funct3)
             3'b000:  PCSrc <= beq; 
-            3'b000:  PCSrc <= bnq; 
-            3'b000:  PCSrc <= blt; 
+            3'b001:  PCSrc <= bnq; 
+            3'b100:  PCSrc <= blt; 
             default: PCSrc <= 1'b0;
         endcase
     end
