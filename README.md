@@ -10,6 +10,7 @@
 ![4](https://user-images.githubusercontent.com/67025780/222915750-254d5014-11f3-4366-93f0-0273003a659c.PNG)
 
 > ## _Result Figures_
+The processor was tested on Modelsim by two programs a factorial program(of the number `8`) and a program to display Fibonacci sequence.
 1. Fibanocci Program
 ![1](https://user-images.githubusercontent.com/67025780/222915818-4170992a-b2f8-4a87-a7be-cd404d411eaa.PNG)
 
