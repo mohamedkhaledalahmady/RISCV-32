@@ -7,11 +7,14 @@
 
 
 > ## _Block Diagram_
-
+![4](https://user-images.githubusercontent.com/67025780/222915750-254d5014-11f3-4366-93f0-0273003a659c.PNG)
 
 > ## _Result Figures_
+1. Fibanocci Program
+![1](https://user-images.githubusercontent.com/67025780/222915818-4170992a-b2f8-4a87-a7be-cd404d411eaa.PNG)
 
-
+2. Factorial Program
+![3](https://user-images.githubusercontent.com/67025780/222915822-6406c0e8-1c56-43d8-926e-2d874d24ec3c.PNG)
 > ## __Store your program in instruction memory__
 ```verilog
     initial begin
