@@ -3,7 +3,7 @@
    * Design of a 32-bit single cycle micro architecture MIPS processor based on harvered architecture fully implemented RTL verilog files for all sub-modules of the MIPS processor then implementation of the top module of the MIPS processor.
 > ## _Contents_
    * _RTL files._
-   * _Machine Code For Fibanocci and Factorial Programs._
+   * _Machine Code For Fibonacci and Factorial Programs._
 
 
 > ## _Block Diagram_
@@ -11,7 +11,7 @@
 
 > ## _Result Figures_
 The processor was tested on Modelsim by two programs a **Factorial program** (of the number `8`) and a program to display **Fibonacci sequence**.
-1. Fibanocci Program
+1. Fibonacci Program
 ![1](https://user-images.githubusercontent.com/67025780/222915818-4170992a-b2f8-4a87-a7be-cd404d411eaa.PNG)
 
 2. Factorial Program
