@@ -15,7 +15,8 @@
 
 2. Factorial Program
 ![3](https://user-images.githubusercontent.com/67025780/222915822-6406c0e8-1c56-43d8-926e-2d874d24ec3c.PNG)
-> ## __Store your program in instruction memory__
+
+> ## __To store your program in instruction memory__
 ```verilog
     initial begin
         $readmemh("your program.hex", memory);
