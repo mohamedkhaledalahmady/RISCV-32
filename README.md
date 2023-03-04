@@ -18,6 +18,7 @@
 
 > ## __To store your program in instruction memory__
 ```verilog
+    reg [width-1:0] memory [entries-1:0];
     initial begin
         $readmemh("your program.hex", memory);
     end
