@@ -1,6 +1,6 @@
 # _**RISCV-32 Processor**_
 > ## _Project Description_
-   * Design of a 32-bit single cycle micro architecture MIPS processor based on harvered architecture fully implemented RTL verilog files for all sub-modules of the MIPS processor then implementation of the top module of the MIPS processor.
+   * Design of a 32-bit single cycle micro architecture MIPS processor based on harvard architecture fully implemented RTL verilog files for all sub-modules of the MIPS processor then implementation of the top module of the MIPS processor.
 > ## _Contents_
    * _RTL files._
    * _Machine Code For Fibonacci and Factorial Programs._
