@@ -1,3 +1,4 @@
+/*
 `include "ALU.v"
 `include "Control_Unit.v"
 `include "Data_Mem.v"
@@ -7,17 +8,24 @@
 `include "PC.v"
 `include "PC_Calc.v"
 `include "Register_File.v"
-
+*/
 module Top_Module
 #(parameter n = 32)
 (
-    input clk, areset
+    input inclk, areset
 );
     wire [n-1: 0] PCNext, PC, Instr, SrcA, SrcB, ALUResult, ReadData, WriteData, PCPluse4, PCTarget, ImmExt, Result;
     wire Zero, Sign, load, PCSrc, ResultSrc, MemWrite, ALUSrc, RegWrite;
     wire [2:0] ALUControl;
     wire [1:0] ImmSrc;
-
+	 wire clk;
+	 
+	/* PLL Inst */
+	PLL PL (
+	    .inclk0(inclk),
+	    .c0(clk)
+	);
+	 
     /* Program Ccounter */
     PC_Calc P0 (
         .PCSrc(PCSrc),
