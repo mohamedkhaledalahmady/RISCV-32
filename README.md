@@ -3,7 +3,7 @@
    * Design of a 32-bit single cycle micro architecture MIPS processor based on harvard architecture fully implemented RTL verilog files for all sub-modules of the MIPS processor then implementation of the top module of the MIPS processor.
 > ## _Contents_
    * _RTL files._
-   * _Machine Code For Fibonacci and Factorial Programs._
+   * _Machine Code For 3 different programs._
 
 
 > ## _Block Diagram_
