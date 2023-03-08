@@ -9,7 +9,7 @@ module Data_Mem
     input [address_lines-1:0] A, 
     output [width-1:0] RD
 );
-    reg [width-1:0] memory [entries-1:0];    /* 2D Data-Memory */
+    reg [width-1:0] memory [0:entries-1];    /* 2D Data-Memory */
     
     initial begin
         $readmemh("data_memory.hex", memory);

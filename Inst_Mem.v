@@ -9,7 +9,7 @@ module Inst_Mem
         output [n-1:0] RD
     );
 
-    reg [width-1:0] memory [entries-1:0];
+    reg [width-1:0] memory [0:entries-1];
 
     /* Initialize Instruction Memory with machine code of program */
     initial begin

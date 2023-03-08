@@ -10,19 +10,19 @@
 module Top_Module
 #(parameter n = 32)
 (
-    input inclk, areset
+    input clk, areset
 );
     wire [n-1: 0] PCNext, PC, Instr, SrcA, SrcB, ALUResult, ReadData, WriteData, PCPluse4, PCTarget, ImmExt, Result;
     wire Zero, Sign, load, PCSrc, ResultSrc, MemWrite, ALUSrc, RegWrite;
     wire [2:0] ALUControl;
     wire [1:0] ImmSrc;
-	 wire clk;
+	//  wire clk;
 	 
 	/* PLL Inst */
-	PLL PL (
-	    .inclk0(inclk),
-	    .c0(clk)
-	);
+	// PLL PL (
+	//     .inclk0(inclk),
+	//     .c0(clk)
+	// );
 	 
     /* Program Ccounter */
     PC_Calc P0 (

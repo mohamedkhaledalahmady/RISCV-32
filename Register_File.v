@@ -12,7 +12,7 @@ module Register_File
         output [width-1:0] RD1, RD2
     );
 
-    reg [width-1:0] memory [entries-1:0];
+    reg [width-1:0] memory [0:entries-1];
 
     integer i;
     initial begin
