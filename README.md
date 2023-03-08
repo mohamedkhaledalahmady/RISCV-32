@@ -13,7 +13,7 @@
 The processor was tested on Modelsim by three
 * **Factorial program** (of the number `8`)
 * **Fibonacci sequence**.
-* **GCD of two numbers** (between `98` and `56`).
+* **GCD of two numbers** (between `98` & `56`).
 
 1. Fibonacci Program
 ![1](https://user-images.githubusercontent.com/67025780/222915818-4170992a-b2f8-4a87-a7be-cd404d411eaa.PNG)
