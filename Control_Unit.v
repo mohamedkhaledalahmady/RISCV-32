@@ -1,4 +1,4 @@
-// `include "ALU_Decoder.v"
+`include "ALU_Decoder.v"
 module Control_Unit
 (
     input [6:0] op,

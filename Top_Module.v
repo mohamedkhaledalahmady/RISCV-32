@@ -1,4 +1,3 @@
-/*
 `include "ALU.v"
 `include "Control_Unit.v"
 `include "Data_Mem.v"
@@ -8,7 +7,6 @@
 `include "PC.v"
 `include "PC_Calc.v"
 `include "Register_File.v"
-*/
 module Top_Module
 #(parameter n = 32)
 (

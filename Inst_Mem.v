@@ -13,7 +13,7 @@ module Inst_Mem
 
     /* Initialize Instruction Memory with machine code of program */
     initial begin
-        $readmemh("Factorial_Machine_Code.hex", memory);
+        $readmemh("GCD_Machine_Code.hex", memory);
     end
 
     assign RD = memory[A[31:2]];
