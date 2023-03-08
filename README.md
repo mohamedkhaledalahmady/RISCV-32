@@ -15,11 +15,13 @@ The processor was tested on Modelsim by three
 * **Fibonacci sequence**.
 * **GCD of two numbers** (between `98` & `56`).
 
-1. Fibonacci Program
+1. Factorial Program
+![3](https://user-images.githubusercontent.com/67025780/222915822-6406c0e8-1c56-43d8-926e-2d874d24ec3c.PNG)
+
+
+2. Fibonacci Program
 ![1](https://user-images.githubusercontent.com/67025780/222915818-4170992a-b2f8-4a87-a7be-cd404d411eaa.PNG)
 
-2. Factorial Program
-![3](https://user-images.githubusercontent.com/67025780/222915822-6406c0e8-1c56-43d8-926e-2d874d24ec3c.PNG)
 
 3. GCD Program
 ![GCD(98,56)](https://user-images.githubusercontent.com/67025780/223853300-87dc2b32-ad77-42ee-9a7b-4c20033fb26c.PNG)
